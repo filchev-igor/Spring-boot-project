@@ -75,6 +75,7 @@ databaseChangeLog:
                   name: appointment_date
                   type: TIMESTAMP
 
+  # Load initial patient data from CSV
   - changeSet:
       id: 4
       author: your_name
@@ -89,6 +90,7 @@ databaseChangeLog:
               - column: { name: dob, type: DATE }
               - column: { name: created_at, type: TIMESTAMP }
 
+  # Load initial doctor data from CSV
   - changeSet:
       id: 5
       author: your_name
@@ -102,6 +104,7 @@ databaseChangeLog:
               - column: { name: name, type: STRING }
               - column: { name: specialty, type: STRING }
 
+  # Load initial appointment data from CSV
   - changeSet:
       id: 6
       author: your_name
