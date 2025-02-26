@@ -1,10 +1,10 @@
-package lt.vilniustech.filchev.first_spring;
+package lt.vilniustech.filchev.hospital;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FirstSpringApplicationTests {
+class HospitalManagementApplicationTests {
 
 	@Test
 	void contextLoads() {
